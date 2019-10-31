@@ -6,21 +6,21 @@ stages{
 
 stage('Init'){
 steps{
-echo 'initialising'
+echo "initialising"
 
 }
 
 }
 stage('Build'){
 steps{
-echo 'Building'
+echo "Building"
 
 }
 
 }
 stage('Deploy'){
 steps{
-echo 'Deployment'
+echo "Deployment"
 
 }
 }
